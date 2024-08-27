@@ -1,0 +1,47 @@
+<topology>
+	<node-master ip="compute-9-2" port="5000">
+	<node-group>
+		<retransmitter ip="compute-9-1" port="5004">
+		<node ip="compute-9-1">
+		<node ip="compute-9-2">
+		<node ip="compute-9-3">
+	</node-group>
+	<node-group>
+		<retransmitter ip="compute-11-2" port="5004">
+		<node ip="compute-11-2">
+		<node ip="compute-11-4">
+		<node ip="compute-11-5">
+		<node ip="compute-11-6">
+		<node ip="compute-11-7">
+	</node-group>
+	<node-group>
+		<retransmitter ip="compute-1-1" port="5004">
+		<node ip="compute-1-1">
+		<node ip="compute-1-2">
+		<node ip="compute-1-3">
+		<node ip="compute-1-4">
+		<node ip="compute-1-5">
+		<node ip="compute-1-6">
+		<node ip="compute-1-7">
+		<node ip="compute-1-8">
+		<node ip="compute-1-9">
+		<node ip="compute-1-10">
+		<node ip="compute-1-11">
+		<node ip="compute-1-12">
+	</node-group>
+	<node-group>
+		<retransmitter ip="compute-3-1" port="5004">
+		<node ip="compute-3-1">
+		<node ip="compute-3-2">
+	</node-group>
+	<node-group>
+		<retransmitter ip="compute-7-1" port="5004">
+		<node ip="compute-7-1">
+		<node ip="compute-7-2">
+		<node ip="compute-7-3">
+		<node ip="compute-6-2">
+		<node ip="compute-6-1">
+		<node ip="compute-5-1">
+		<node ip="compute-8-1">
+	</node-group>
+</topology>

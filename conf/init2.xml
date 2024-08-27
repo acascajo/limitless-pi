@@ -1,0 +1,7 @@
+<topology>
+	<node-master ip="127.0.0.1" port="5000">
+	<node-group>
+		<retransmitter ip="127.0.0.1" port="5004">
+		<node ip="127.0.0.1">
+	</node-group>
+</topology>
