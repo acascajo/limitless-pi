@@ -7,7 +7,7 @@ authors:
   given-names: "Héctor"
 title: "Limitless Pi"
 version: 1.0.0
-license: "MIT"
+license: "GPL-3.0-or-later"
 keywords:
   - Raspberry Pi
   - IoT
