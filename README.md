@@ -1,9 +1,18 @@
-Framework that combines global system monitorization with application level monitorization. The objective is to schedule and manage the whole cluster to exploit the available resources reducing the application's execution time. 
+LIght-weight MonItoring Tool for LargE Scale distributed System
+
+
+Framework that combines global system monitorization with application level monitorization. The objective is to schedule and manage the whole cluster to exploit the available resources reducing the application's execution time.
+
+
+Documentation included in the repository.
+
+
+Limitless can be used without the server, by writing the results in a local logfile.
 
 
 Configuration parameters for the different components: 
 
-Limitless Daemon Monitor
+(LDM) Limitless Daemon Monitor
 
 -i : time interval (1000)
 
@@ -24,7 +33,8 @@ Limitless Daemon Monitor
 -m : 0 TMR 1-1, 1 TMR 3-3
 
 
-Limitless Daemon Server
+
+(LDS) Limitless Daemon Server
 
 -p : port for LDM
 
@@ -41,7 +51,8 @@ Limitless Daemon Server
 -m : 0 TMR 1-1, 1 TMR 3-3
 
 
-Limitless Daemon Aggregator
+
+(LDA) Limitless Daemon Aggregator
 
 -p : port for lower level daemon/retransmitter
 
@@ -52,6 +63,8 @@ Limitless Daemon Aggregator
 -s : Master IP
 
 -n : 1 (retransmitter enabled)
+
+
 
 Connection API
 
